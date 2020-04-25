@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# acnhMsgBox
-acnhMsgBox is a library who create you a message box like in Animal Crossing New Horizon
-=======
-
-
 # Animal Crossing Message Box
 
 **acnhMsgBox** is a library who create you a message box like in Animal Crossing New Horizon
