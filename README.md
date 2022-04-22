@@ -90,7 +90,7 @@ ACMsgBox.draw()
 
 ## Authors
 
-* **Théo Pierné** - *Initial work* - [Waiit](https://github.com/Waiit)
+* **Théo Pierné** - *Initial work* - [TheoPierne](https://github.com/TheoPierne/)
 
 
 ## License
