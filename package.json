@@ -13,6 +13,14 @@
     "message box animal crossing",
     "animal crossing new horizon"
   ],
-  "author": "Waiit",
-  "license": "ISC"
+  "author": "Théo Pierné <theo.pierne2@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/TheoPierne/acnhMsgBox",
+  "bugs": {
+    "url": "https://github.com/TheoPierne/acnhMsgBox/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoPierne/acnhMsgBox.git"
+  }
 }
