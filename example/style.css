@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'FOT-RodinBokutoh Pro B'; 
+  src: url('FOT-RodinBokutoh%20Pro%20B.otf')
+}
+
 body {
   background-color: #e3dfe8;  
   padding: 40px;
