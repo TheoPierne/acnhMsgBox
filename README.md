@@ -33,8 +33,10 @@ Open the `index.html` in the example folder and enjoy :)
 Like that
 
 ``` html
-<script type="text/javascript" src="./acnhMessageBox.js"></script>
-<script type="text/javascript">
+<script type="module" src="./acnhMessageBox.js"></script>
+<script type="module">
+import ACMsgBox from "acmsgbox";
+
 var msgBox = new ACMsgBox({
 	title: "Mélo",
 	idDiv: "svgDiv",
