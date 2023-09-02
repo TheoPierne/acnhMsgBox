@@ -1,4 +1,4 @@
-declare module "acmsgbox" {
+declare module "acnhmsgbox" {
 	export default class ACMsgBox {
 		private height: number;
 		private length: number;
