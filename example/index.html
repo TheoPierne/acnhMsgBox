@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta charset="utf-8">
-	<title>ACNH Message Box by Waiit</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="utf-8">
+    <title>ACNH Message Box by Waiit</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-	<button onclick="draw()">Draw a message box like in Animal Crossing: New Horizons</button>
-	<div id="svgDiv"></div>
+    <div id="svgDiv"></div>
+	<button id="draw" type="button" title="Draw a message box">Draw a message box like in Animal Crossing: New Horizons</button>
 
-	<script type="text/javascript" src="../acnhMessageBox.js"></script>
-	<script type="text/javascript" src="./script.js"></script>
+    <script type="module">
+        import ACMsgBox from "../acnhMessageBox.js";
+        // For TypeScript you can use the ambient module reference:
+        // import ACMsgBox from "acmsgbox";
 
+        var msgBox = new ACMsgBox({
+            title: "Mélo",
+            idDiv: "svgDiv",
+            textWriteInProcess: true,
+            lines: {
+                1: "Et voilà ! Je peux te racheter le tout",
+                2: "pour {1 988 000 clochettes.} Qu'est-ce",
+                3: "que tu en dis ?"
+            }
+        });
+
+        function draw() {
+			msgBox.draw();
+        }
+		document.getElementById("draw").onclick = () => draw();
+    </script>
 </body>
 </html>
